@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+</title>
+<style>
+body{
+background-image:url('https://images.unsplash.com/photo-1530625981245-43987dcfb80d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80');
+background-repeat:no-repeat;
+background-size:cover;
+}
+div{
+width:35%;
+text-align:center;
+}
+a,h2{
+text-decoration:none;
+color:rgb(255,255,224);
+}
+</style>
+</head>
+<body>
+<h2><marquee>Welcome to Indian railways</marquee></h2>
+<h2 id="hi">Welcome user</h2>
+<center>
+<div>
+<h2>
+<br><br><br><br><br><br><br><br><br>
+<a href="train timings.html">Train timings→</a><br>
+<a href="book.html">Ticket Booking→</a><br>
+<a href="foodorder.html">order food→</a><br>
+<a href="http://wa.me/+916281796892">customer care support→</a><br>
+<a href="feedback.html">Feed Back→</a><br>
+</h2>
+</div>
+</center>
+<script>
+var u=sessionStorage.getItem("user");
+var x="Welcome "+u;
+function(){
+document.getElementById("hi").innerHTML=x;
+}
+</script>
+</h3>
+</body>
+</html>
